@@ -27,7 +27,6 @@ export default class Slider extends React.Component {
 
     window.addEventListener('resize', this.onResize);
     this.flickity.on('cellSelect', this.onCellSelect);
-    // this.flickity.on('cellSelect', this.onCellSelectHandler);
     this.flickity.on('dragStart', this.onDragStart);
     this.flickity.on('settle', this.onSettle);
   }
@@ -55,7 +54,6 @@ export default class Slider extends React.Component {
 
     if (flickityDidBecomeActive || childrenDidChange) {
       this.refreshFlickity();
-      // this.onCellSelect(this.props.selectedIndex);
     }
     if (needToOpenStack) {
       this.onOpenStack();
@@ -68,7 +66,7 @@ export default class Slider extends React.Component {
   // window resize
   onResize = throttle ((ev) => {
     // recalculate window width/height
-    const win = { width: window.innerWidth, height: window.innerHeight };
+    // const win = { width: window.innerWidth, height: window.innerHeight };
     const bodyEl = document.body;
     const { stacks } = this.getStackNodes();
     // reset body height if stack is opened
@@ -91,13 +89,6 @@ export default class Slider extends React.Component {
       nextStack,
     };
   };
-
-  // onCellSelectHandler = () => {
-  //   const selidx = this.flickity.selectedIndex;
-  //   console.log('onChange onCellSelectHandler', selidx);
-  //
-  //   this.props.onChange(selidx);
-  // };
 
   onCellSelect = (index = this.flickity.selectedIndex) => {
     this.setState({
@@ -129,7 +120,6 @@ export default class Slider extends React.Component {
   };
 
   onDragStart = () => {
-    console.log('flickity onDragStart');
     this.setState({
       canOpen: false,
     });
@@ -138,7 +128,6 @@ export default class Slider extends React.Component {
   };
 
   onSettle = () => {
-    console.log('flickity onSettle');
     this.setState({
       canOpen: true,
     });
@@ -149,7 +138,6 @@ export default class Slider extends React.Component {
   onEndTransition = function( el, callback ) {
     // add this to not trigger eslint no-undef
     /* global Modernizr */
-    console.log('Modernizr', Modernizr);
     const support = { transitions: Modernizr.csstransitions };
     // transition end event name
     const transEndEventNames = {
@@ -179,7 +167,6 @@ export default class Slider extends React.Component {
 
   onOpenStack = () => {
     const { canOpen } = this.state;
-    console.log('onOpenStack', canOpen);
     if (canOpen) {
       const bodyEl = document.body;
       bodyEl.classList.add('view-full');
@@ -188,7 +175,6 @@ export default class Slider extends React.Component {
       }, 25);
       const { selectedStack } = this.getStackNodes();
       bodyEl.style.height = selectedStack.offsetHeight + 'px';
-      console.log('onOpenStack', selectedStack);
       this.flickity.unbindDrag();
       this.flickity.options.accessibility = false;
     }
@@ -196,7 +182,6 @@ export default class Slider extends React.Component {
 
   scrollY = () => {
     const docElem = window.document.documentElement;
-    console.log('scrollY', window.pageYOffset, docElem.scrollTop);
     return window.pageYOffset || docElem.scrollTop;
   };
 
@@ -219,7 +204,6 @@ export default class Slider extends React.Component {
     const docElem = window.document.documentElement;
     const isFirefox = typeof InstallTrigger !== 'undefined';
     if(scrolled > 0) {
-      console.log('onCloseStack', scrolled);
       smoothscroll(isFirefox ? docElem : bodyEl || docElem, 0, 500);
       this.closeStack();
     }

@@ -59,7 +59,6 @@ export default class SliderContainer extends Component {
         >
           {stacks.map(
             ({title, items, index}) => {
-              console.log('stacks', title, items);
               return (
                 <Stack
                   key={index}

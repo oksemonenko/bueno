@@ -41,7 +41,7 @@ export default  class App extends Component {
             count={count}
             onChange={this.onChange}
           />
-          <img className="loader" src="../src/img/three-dots.svg" width="60" alt="Loader image"/>
+          <img className="loader" src="../src/img/three-dots.svg" width="60" alt="Loader"/>
         </div>
       </div>
     );
