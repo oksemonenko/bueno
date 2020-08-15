@@ -5,7 +5,7 @@ function Footer() {
     <div className="item">
       <div className="item__content item__content--related">
         <p>Developed by:</p>
-        <a className="media-item" href="https://www.facebook.com/oksanasemonenko/"
+        <a className="media-item" href="https://www.linkedin.com/in/oksemonenko/"
            title="Oksana" target="_blank" rel="noopener noreferrer">
           <h3 className="media-item__title">Oksana Semonenko <span>&hearts; </span></h3>
         </a>

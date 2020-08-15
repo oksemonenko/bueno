@@ -214,7 +214,6 @@ button:focus {
 .hero > div {
     background: #071603 url(../src/img/Yo.jpg) no-repeat center;
     background-size: cover;
-    /*min-height: 100%;*/
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -778,12 +777,13 @@ button:focus {
     .menu {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     .menu__item {
         margin: 0.2em;
     }
     .codrops-header {
-        padding: 0.5em 0;
+        padding: 0.5em 0 0;
     }
     .stack.stack-prev .stack-title::after,
     .stack.stack-next .stack-title::after {
