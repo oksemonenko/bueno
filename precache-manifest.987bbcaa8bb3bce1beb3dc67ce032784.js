@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfe64b430e7136ad0e8888e5bcaf52bf",
+    "revision": "6e5fba23272b8f12b496f7ec563e2ff1",
     "url": "/bueno/index.html"
   },
   {
-    "revision": "174ee165cd2c8533e595",
+    "revision": "f2deb0a5a320eabef2c1",
     "url": "/bueno/static/css/2.8668d65b.chunk.css"
   },
   {
-    "revision": "50cc5d62288decbf44c2",
-    "url": "/bueno/static/css/main.311ae8ea.chunk.css"
+    "revision": "96e0dc05bbb4fb9e61f1",
+    "url": "/bueno/static/css/main.692bfda7.chunk.css"
   },
   {
-    "revision": "174ee165cd2c8533e595",
-    "url": "/bueno/static/js/2.d3805327.chunk.js"
+    "revision": "f2deb0a5a320eabef2c1",
+    "url": "/bueno/static/js/2.92277b74.chunk.js"
   },
   {
-    "revision": "fc4df5be48fbbbe38bc25f59029d9143",
-    "url": "/bueno/static/js/2.d3805327.chunk.js.LICENSE.txt"
+    "revision": "b8bd0f699d6e532311236b354faf3fcd",
+    "url": "/bueno/static/js/2.92277b74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50cc5d62288decbf44c2",
-    "url": "/bueno/static/js/main.b498d123.chunk.js"
+    "revision": "96e0dc05bbb4fb9e61f1",
+    "url": "/bueno/static/js/main.e996a24e.chunk.js"
   },
   {
     "revision": "9b77a15608cf8562b65d",
@@ -176,7 +176,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bueno/static/media/codropsicons.e0c41e21.eot"
   },
   {
-    "revision": "b5c2f1d493e0117f4205df6097b97792",
-    "url": "/bueno/static/media/dots.b5c2f1d4.svg"
+    "revision": "7627bc820cce40098e897ca98413d895",
+    "url": "/bueno/static/media/three-dots.7627bc82.svg"
   }
 ]);

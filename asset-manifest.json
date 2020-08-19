@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bueno/static/css/main.311ae8ea.chunk.css",
-    "main.js": "/bueno/static/js/main.b498d123.chunk.js",
-    "main.js.map": "/bueno/static/js/main.b498d123.chunk.js.map",
+    "main.css": "/bueno/static/css/main.692bfda7.chunk.css",
+    "main.js": "/bueno/static/js/main.e996a24e.chunk.js",
+    "main.js.map": "/bueno/static/js/main.e996a24e.chunk.js.map",
     "runtime-main.js": "/bueno/static/js/runtime-main.73e2bc96.js",
     "runtime-main.js.map": "/bueno/static/js/runtime-main.73e2bc96.js.map",
     "static/css/2.8668d65b.chunk.css": "/bueno/static/css/2.8668d65b.chunk.css",
-    "static/js/2.d3805327.chunk.js": "/bueno/static/js/2.d3805327.chunk.js",
-    "static/js/2.d3805327.chunk.js.map": "/bueno/static/js/2.d3805327.chunk.js.map",
+    "static/js/2.92277b74.chunk.js": "/bueno/static/js/2.92277b74.chunk.js",
+    "static/js/2.92277b74.chunk.js.map": "/bueno/static/js/2.92277b74.chunk.js.map",
     "index.html": "/bueno/index.html",
-    "precache-manifest.c36f037ea74d322129cb0c9dcd1dbe8e.js": "/bueno/precache-manifest.c36f037ea74d322129cb0c9dcd1dbe8e.js",
+    "precache-manifest.987bbcaa8bb3bce1beb3dc67ce032784.js": "/bueno/precache-manifest.987bbcaa8bb3bce1beb3dc67ce032784.js",
     "service-worker.js": "/bueno/service-worker.js",
     "static/css/2.8668d65b.chunk.css.map": "/bueno/static/css/2.8668d65b.chunk.css.map",
-    "static/css/main.311ae8ea.chunk.css.map": "/bueno/static/css/main.311ae8ea.chunk.css.map",
-    "static/js/2.d3805327.chunk.js.LICENSE.txt": "/bueno/static/js/2.d3805327.chunk.js.LICENSE.txt",
+    "static/css/main.692bfda7.chunk.css.map": "/bueno/static/css/main.692bfda7.chunk.css.map",
+    "static/js/2.92277b74.chunk.js.LICENSE.txt": "/bueno/static/js/2.92277b74.chunk.js.LICENSE.txt",
     "static/media/Dancer1.jpg": "/bueno/static/media/Dancer1.32d4a163.jpg",
     "static/media/Dancer10.jpg": "/bueno/static/media/Dancer10.c5cd4c9f.jpg",
     "static/media/Dancer2.jpg": "/bueno/static/media/Dancer2.ba533a6a.jpg",
@@ -41,13 +41,13 @@
     "static/media/Dress8.JPG": "/bueno/static/media/Dress8.24b8e238.JPG",
     "static/media/Dress9.JPG": "/bueno/static/media/Dress9.20b45e0c.JPG",
     "static/media/App.css": "/bueno/static/media/codropsicons.e0c41e21.eot",
-    "static/media/dots.svg": "/bueno/static/media/dots.b5c2f1d4.svg"
+    "static/media/three-dots.svg": "/bueno/static/media/three-dots.7627bc82.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.73e2bc96.js",
     "static/css/2.8668d65b.chunk.css",
-    "static/js/2.d3805327.chunk.js",
-    "static/css/main.311ae8ea.chunk.css",
-    "static/js/main.b498d123.chunk.js"
+    "static/js/2.92277b74.chunk.js",
+    "static/css/main.692bfda7.chunk.css",
+    "static/js/main.e996a24e.chunk.js"
   ]
 }
