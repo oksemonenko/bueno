@@ -1,11 +1,12 @@
 import React from 'react';
+import { LazyImage } from './LazyImage';
 
 function Item(props) {
   const {image, name, description, index} = props;
   return (
     <div className="item">
       <div className="item__content">
-        <img src={image} alt={index}/>
+        <LazyImage src={image} alt={index}/>
         <div className="item__details">
           <ul>
             <li><span>{name}</span></li>
