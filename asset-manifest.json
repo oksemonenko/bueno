@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/bueno/static/css/main.26befc53.chunk.css",
-    "main.js": "/bueno/static/js/main.d81959a9.chunk.js",
-    "main.js.map": "/bueno/static/js/main.d81959a9.chunk.js.map",
+    "main.js": "/bueno/static/js/main.3f284aeb.chunk.js",
+    "main.js.map": "/bueno/static/js/main.3f284aeb.chunk.js.map",
     "runtime-main.js": "/bueno/static/js/runtime-main.73e2bc96.js",
     "runtime-main.js.map": "/bueno/static/js/runtime-main.73e2bc96.js.map",
     "static/css/2.8668d65b.chunk.css": "/bueno/static/css/2.8668d65b.chunk.css",
-    "static/js/2.6290a594.chunk.js": "/bueno/static/js/2.6290a594.chunk.js",
-    "static/js/2.6290a594.chunk.js.map": "/bueno/static/js/2.6290a594.chunk.js.map",
+    "static/js/2.973916c2.chunk.js": "/bueno/static/js/2.973916c2.chunk.js",
+    "static/js/2.973916c2.chunk.js.map": "/bueno/static/js/2.973916c2.chunk.js.map",
     "index.html": "/bueno/index.html",
-    "precache-manifest.5ab2c3450a68fbfdca6af802ccc19a5e.js": "/bueno/precache-manifest.5ab2c3450a68fbfdca6af802ccc19a5e.js",
+    "precache-manifest.71b8f278c37a304da08742fe6b042f61.js": "/bueno/precache-manifest.71b8f278c37a304da08742fe6b042f61.js",
     "service-worker.js": "/bueno/service-worker.js",
     "static/css/2.8668d65b.chunk.css.map": "/bueno/static/css/2.8668d65b.chunk.css.map",
     "static/css/main.26befc53.chunk.css.map": "/bueno/static/css/main.26befc53.chunk.css.map",
-    "static/js/2.6290a594.chunk.js.LICENSE.txt": "/bueno/static/js/2.6290a594.chunk.js.LICENSE.txt",
+    "static/js/2.973916c2.chunk.js.LICENSE.txt": "/bueno/static/js/2.973916c2.chunk.js.LICENSE.txt",
     "static/media/Dancer1.jpg": "/bueno/static/media/Dancer1.feddf2ed.jpg",
     "static/media/Dancer2.jpg": "/bueno/static/media/Dancer2.53db0bd8.jpg",
     "static/media/Dancer3.jpg": "/bueno/static/media/Dancer3.a2da69b3.jpg",
@@ -29,13 +29,14 @@
     "static/media/Dress3.JPG": "/bueno/static/media/Dress3.feb04b34.JPG",
     "static/media/Dress4.JPG": "/bueno/static/media/Dress4.b6de3dd7.JPG",
     "static/media/Dress5.JPG": "/bueno/static/media/Dress5.13cf5489.JPG",
-    "static/media/App.css": "/bueno/static/media/codropsicons.e0c41e21.eot"
+    "static/media/App.css": "/bueno/static/media/codropsicons.e0c41e21.eot",
+    "static/media/three-dots.svg": "/bueno/static/media/three-dots.7627bc82.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.73e2bc96.js",
     "static/css/2.8668d65b.chunk.css",
-    "static/js/2.6290a594.chunk.js",
+    "static/js/2.973916c2.chunk.js",
     "static/css/main.26befc53.chunk.css",
-    "static/js/main.d81959a9.chunk.js"
+    "static/js/main.3f284aeb.chunk.js"
   ]
 }
