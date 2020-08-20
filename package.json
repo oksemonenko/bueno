@@ -5,14 +5,14 @@
   "homepage": "https://oksemonenko.github.io/bueno",
   "dependencies": {
     "cra-template": "1.0.3",
+    "flickity": "^2.2.1",
+    "lodash": "^4.17.15",
+    "modernizr": "^3.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "lodash": "^4.17.15",
-    "scroll": "^2.0.0",
     "react-redux": "^7.2.0",
-    "flickity": "^2.2.1",
-    "modernizr": "^3.10.0",
+    "react-scripts": "3.4.1",
+    "scroll": "^2.0.0",
     "smoothscroll": "^0.4.0"
   },
   "scripts": {
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
