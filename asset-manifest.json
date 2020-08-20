@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bueno/static/css/main.26befc53.chunk.css",
-    "main.js": "/bueno/static/js/main.7ffd22e1.chunk.js",
-    "main.js.map": "/bueno/static/js/main.7ffd22e1.chunk.js.map",
+    "main.js": "/bueno/static/js/main.d81959a9.chunk.js",
+    "main.js.map": "/bueno/static/js/main.d81959a9.chunk.js.map",
     "runtime-main.js": "/bueno/static/js/runtime-main.73e2bc96.js",
     "runtime-main.js.map": "/bueno/static/js/runtime-main.73e2bc96.js.map",
     "static/css/2.8668d65b.chunk.css": "/bueno/static/css/2.8668d65b.chunk.css",
     "static/js/2.6290a594.chunk.js": "/bueno/static/js/2.6290a594.chunk.js",
     "static/js/2.6290a594.chunk.js.map": "/bueno/static/js/2.6290a594.chunk.js.map",
     "index.html": "/bueno/index.html",
-    "precache-manifest.5c6f9c05b4a02e65b50d6d849e12558f.js": "/bueno/precache-manifest.5c6f9c05b4a02e65b50d6d849e12558f.js",
+    "precache-manifest.5ab2c3450a68fbfdca6af802ccc19a5e.js": "/bueno/precache-manifest.5ab2c3450a68fbfdca6af802ccc19a5e.js",
     "service-worker.js": "/bueno/service-worker.js",
     "static/css/2.8668d65b.chunk.css.map": "/bueno/static/css/2.8668d65b.chunk.css.map",
     "static/css/main.26befc53.chunk.css.map": "/bueno/static/css/main.26befc53.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.8668d65b.chunk.css",
     "static/js/2.6290a594.chunk.js",
     "static/css/main.26befc53.chunk.css",
-    "static/js/main.7ffd22e1.chunk.js"
+    "static/js/main.d81959a9.chunk.js"
   ]
 }
