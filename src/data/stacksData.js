@@ -9,7 +9,7 @@ import Dress3 from '../img/type2/Dress3.JPG';
 import Dress4 from '../img/type2/Dress4.JPG';
 import Dress5 from '../img/type2/Dress5.JPG';
 import Dancer1 from '../img/type3/Dancer1.jpg';
-import Dancer2 from '../img/type3/Dancer2.jpg';
+import Dancer2 from '../img/type3/Dancer2.jpeg';
 import Dancer3 from '../img/type3/Dancer3.jpg';
 import Dancer4 from '../img/type3/Dancer4.jpg';
 import Dancer5 from '../img/type3/Dancer5.jpg';

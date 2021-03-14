@@ -14,7 +14,7 @@ export default class Hero extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('mousemove', this.onMouseMove);
+    // window.addEventListener('mousemove', this.onMouseMove);
   }
 
   onMouseMove = throttle ((ev) => {
