@@ -4,6 +4,7 @@ import Flickity from 'flickity';
 import smoothscroll from 'smoothscroll';
 import 'flickity/dist/flickity.min.css';
 import { throttle } from 'lodash';
+import PropTypes from "prop-types";
 
 export default class Slider extends React.Component {
   constructor(props) {
@@ -15,6 +16,17 @@ export default class Slider extends React.Component {
     };
 
     this.refreshFlickity = this.refreshFlickity.bind(this);
+  }
+
+  static propTypes = {
+    options: PropTypes.object.isRequired,
+    children: PropTypes.oneOfType([
+      PropTypes.arrayOf(PropTypes.node),
+      PropTypes.node
+    ]).isRequired,
+    stackIsOpened: PropTypes.bool.isRequired,
+    selectedIndex: PropTypes.number.isRequired,
+    count: PropTypes.number.isRequired,
   }
 
   componentDidMount() {

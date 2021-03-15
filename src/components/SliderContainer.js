@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import Stack from './Stack';
 import Slider from '../components/Slider';
 
@@ -9,6 +11,13 @@ export default class SliderContainer extends Component {
     this.state = {
       stackIsOpened: false,
     };
+  }
+
+  static propTypes = {
+    stacks: PropTypes.array.isRequired,
+    onChange: PropTypes.func.isRequired,
+    selectedIndex: PropTypes.number.isRequired,
+    count: PropTypes.number.isRequired,
   }
 
   openStack = () => {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const placeHolder =
   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=";
@@ -90,4 +91,12 @@ export const LazyImage = ({ src, alt }) => {
     />
   );
 };
+
+LazyImage.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.oneOfType([
+      PropTypes.number,
+      PropTypes.string.isRequired,
+  ]).isRequired,
+}
 

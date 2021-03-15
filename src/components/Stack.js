@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Item from './Item';
 import Footer from "./Footer";
 
@@ -19,6 +21,7 @@ function Stack(props) {
               image={image}
               name={name}
               description={description}
+              index={index}
             />
           );
         },
@@ -26,6 +29,12 @@ function Stack(props) {
       <Footer />
     </div>
   );
+}
+
+Stack.propTypes = {
+    title: PropTypes.string.isRequired,
+    items: PropTypes.array.isRequired,
+    onClick: PropTypes.func.isRequired,
 }
 
 export default Stack;
