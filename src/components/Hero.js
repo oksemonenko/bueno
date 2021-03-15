@@ -14,6 +14,7 @@ export default class Hero extends Component {
   }
 
   componentDidMount() {
+    // Switched off this method for a while
     // window.addEventListener('mousemove', this.onMouseMove);
   }
 
